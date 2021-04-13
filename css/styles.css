@@ -48,6 +48,16 @@ ul {
     list-style: none;
 }
 
+h1,
+h2,
+h3,
+a,
+p,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
 .head {
     background: white;
 }
