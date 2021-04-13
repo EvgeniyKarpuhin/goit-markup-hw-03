@@ -65,7 +65,12 @@ ul {
     width: 1200px;
     margin-left: auto;
     margin-right: auto;
-    display: inline;
+    display: flex;
+}
+
+.nav {
+    margin-top: 24px;
+    margin-bottom: 25px;
 }
 
 .nav-logo {
@@ -74,10 +79,15 @@ ul {
     line-height: 1.19;
     letter-spacing: 0.03em;
     color: #2196F3;
+    margin-right: 93px;
 }
 
 .nav-logo span {
     color: black;
+}
+
+.head-type {
+    display: inline-flex;
 }
 
 .nav-website {
@@ -85,6 +95,11 @@ ul {
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
+    margin-right: 50px;
+}
+
+li:last-child {
+    margin-right: 0;
 }
 
 .nav-website:hover {
@@ -97,6 +112,7 @@ ul {
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
+    display: inherit;
 }
 
 .head-link {
