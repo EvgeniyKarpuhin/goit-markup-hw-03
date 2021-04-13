@@ -1,0 +1,175 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background: #E5E5E5;
+    color: black;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+a {
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+    font-weight: 500;
+    color: #212121;
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+h2 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+}
+
+h3 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+}
+
+ul {
+    list-style: none;
+}
+
+.head {
+    background: white;
+}
+
+.nav-logo {
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: #2196F3;
+}
+
+.nav-logo span {
+    color: black;
+}
+
+.nav-website {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+
+.nav-website:hover {
+    color: #2196F3;
+}
+
+.head-adress {
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.head-link {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #757575;
+}
+
+.head-link:hover {
+    color: #2196F3;
+}
+
+.head-text {
+    font-size: 14px;
+    line-height: 1.71;
+}
+
+.type-text {
+    text-align: center;
+}
+
+.decision {
+    background-color: #2F303A;
+    text-align: center;
+}
+
+.btn {
+    width: 200px;
+    height: 50px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.87;
+    background-color: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    color: white;
+}
+
+.name-title {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.14;
+ 
+    text-transform: uppercase;
+}
+
+.text {
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.19;
+}
+
+.footer {
+    background: #2F303A;
+}
+
+.footer-logo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: #2196F3;
+ 
+}
+
+.footer-logo span {
+    color: white;
+}
+
+.footer p {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    color: #FFFFFF;
+    letter-spacing: 0.03em;
+}
+
+.footer-link {
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+
