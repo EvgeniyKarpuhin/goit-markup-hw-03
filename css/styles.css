@@ -66,11 +66,11 @@ ul {
     margin-left: auto;
     margin-right: auto;
     display: flex;
+    justify-content: space-between;
 }
 
 .nav {
-    margin-top: 24px;
-    margin-bottom: 25px;
+    margin: 25px 0;
 }
 
 .nav-logo {
@@ -90,16 +90,19 @@ ul {
     display: inline-flex;
 }
 
+.head-type li {
+    margin-right: 50px;
+}
+
+.head-type li:last-child {
+    margin-right: 0;
+}
+
 .nav-website {
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    margin-right: 50px;
-}
-
-li:last-child {
-    margin-right: 0;
 }
 
 .nav-website:hover {
@@ -113,6 +116,16 @@ li:last-child {
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
     display: inherit;
+    
+}
+
+.head-adress li {
+    margin-right: 50px;
+    margin-top: 32px;
+}
+
+.head-adress li:last-child {
+    margin-right: 0;
 }
 
 .head-link {
