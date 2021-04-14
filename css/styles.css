@@ -70,7 +70,10 @@ ul {
 }
 
 .nav {
-    margin: 25px 0;
+    display: inline-flex;
+    align-items: center;
+    padding-top: 24px;
+    padding-bottom: 25px;
 }
 
 .nav-logo {
@@ -115,7 +118,7 @@ ul {
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
-    display: inherit;
+    display: inline-flex;
     align-items: center;
     
 }
@@ -224,6 +227,11 @@ ul {
     background: #2F303A;
 }
 
+.footer-block {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
 .footer-logo {
     font-family: 'Raleway', sans-serif;
     font-weight: bold;
@@ -231,7 +239,6 @@ ul {
     line-height: 1.19;
     letter-spacing: 0.03em;
     color: #2196F3;
- 
 }
 
 .footer-logo span {
@@ -246,6 +253,21 @@ ul {
     line-height: 1.71;
     color: #FFFFFF;
     letter-spacing: 0.03em;
+    margin-top: 20px;
+}
+
+.footer-type li:not(:last-child) {
+    margin-bottom: 9px;
+}
+
+.footer-adress {
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    
+    align-items: center;
 }
 
 .footer-link {
