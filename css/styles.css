@@ -67,6 +67,7 @@ ul {
     margin-right: auto;
     display: flex;
     justify-content: space-between;
+    background-color: white;
 }
 
 .nav {
@@ -144,6 +145,8 @@ ul {
 .head-text {
     font-size: 14px;
     line-height: 1.71;
+    width: 270px;
+    margin-top: 10px;
 }
 
 .type-text {
@@ -154,6 +157,8 @@ ul {
     background-color: #2F303A;
     text-align: center;
     padding: 200px 0;
+    width: 100%;
+    margin-bottom: 94px;
 }
 
 .btn {
@@ -171,11 +176,25 @@ ul {
     border-radius: 4px;
 }
 
+.section {
+    width: 100%;
+    padding-bottom: 94px;
+}
+
+.section h2 {
+    margin-bottom: 50px;
+}
+
+.main-type {
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-between;
+}
+
 .name-title {
     font-weight: bold;
     font-size: 14px;
     line-height: 1.14;
- 
     text-transform: uppercase;
 }
 
