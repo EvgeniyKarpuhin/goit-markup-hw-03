@@ -65,9 +65,8 @@ ul {
     width: 1200px;
     margin-left: auto;
     margin-right: auto;
-    display: flex;
-    justify-content: space-between;
-    background-color: white;
+ 
+    
 }
 
 .nav {
@@ -117,12 +116,12 @@ ul {
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
     display: inherit;
+    align-items: center;
     
 }
 
 .head-adress li {
     margin-right: 50px;
-    margin-top: 32px;
 }
 
 .head-adress li:last-child {
@@ -151,6 +150,18 @@ ul {
 
 .type-text {
     text-align: center;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
+
+.type-text h3 {
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.type-text p {
+    margin-bottom: 30px;
 }
 
 .decision {
@@ -177,8 +188,9 @@ ul {
 }
 
 .section {
-    width: 100%;
+    width: 1200px;
     padding-bottom: 94px;
+ 
 }
 
 .section h2 {
@@ -202,6 +214,10 @@ ul {
     font-style: normal;
     font-size: 16px;
     line-height: 1.19;
+}
+
+.foot {
+    padding-top: 94px;
 }
 
 .footer {
