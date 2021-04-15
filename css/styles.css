@@ -172,12 +172,6 @@ ul {
     margin-bottom: 30px;
 }
 
-.decision {
-    background-color: #2F303A;
-    text-align: center;
-    padding: 200px 0;
-}
-
 .btn {
     width: 200px;
     height: 50px;
@@ -197,7 +191,18 @@ ul {
     padding-bottom: 94px;
 }
 
+.decision {
+    background-color: #2F303A;
+    text-align: center;
+    padding: 200px 0;
+}
+
 .info {
+    padding-top: 94px;
+    background-color: white;
+}
+
+.pictures {
     background-color: white;
 }
 
