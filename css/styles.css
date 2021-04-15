@@ -61,12 +61,18 @@ ul {
     background: white;
 }
 
+.test .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
 .container {
     width: 1200px;
     margin-left: auto;
     margin-right: auto;
- 
-    
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .nav {
@@ -119,7 +125,6 @@ ul {
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
     display: inline-flex;
-    align-items: center;
     
 }
 
@@ -171,8 +176,6 @@ ul {
     background-color: #2F303A;
     text-align: center;
     padding: 200px 0;
-    width: 100%;
-    margin-bottom: 94px;
 }
 
 .btn {
@@ -191,9 +194,11 @@ ul {
 }
 
 .section {
-    width: 1200px;
     padding-bottom: 94px;
- 
+}
+
+.info {
+    background-color: white;
 }
 
 .section h2 {
