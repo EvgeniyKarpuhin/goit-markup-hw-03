@@ -63,6 +63,8 @@ ul {
 
 .test {
     border-bottom: 1px solid #ECECEC;
+    padding-top: 24px;
+    padding-bottom: 25px;
 }
 
 .test .container {
@@ -77,13 +79,12 @@ ul {
     margin-right: auto;
     padding-left: 15px;
     padding-right: 15px;
+    box-sizing: border-box;
 }
 
 .nav {
     display: inline-flex;
     align-items: center;
-    padding-top: 24px;
-    padding-bottom: 25px;
 }
 
 .nav-logo {
@@ -153,11 +154,14 @@ ul {
     color: #2196F3;
 }
 
+.name-title {
+    margin-bottom: 10px;
+}
+
 .head-text {
     font-size: 14px;
     line-height: 1.71;
     width: 270px;
-    margin-top: 10px;
 }
 
 .type-text {
@@ -236,6 +240,7 @@ ul {
 
 .foot {
     padding-top: 94px;
+    background-color: #F5F4FA;
 }
 
 .main-container {
@@ -272,6 +277,7 @@ ul {
     line-height: 1.62;
     letter-spacing: 0.03em;
     color: #212121;
+    padding: 6px 22px;
 }
 
 .filters-btn:hover {
@@ -287,7 +293,6 @@ ul {
 }
 
 .wrap-box li {
-    border: 1px solid #EEEEEE;
     box-sizing: border-box;
     margin-bottom: 30px;
 }
@@ -296,9 +301,14 @@ ul {
     margin-bottom: 0;
 }
 
+.wrap-box img {
+    display: block;
+}
+
 .more-info {
-    margin: 20px 24px;
+    padding: 20px 24px;
     text-align: start;
+    border: 1px solid #EEEEEE;
 }
 
 .project-text {
@@ -316,12 +326,11 @@ ul {
 
 .footer {
     background: #2F303A;
-}
-
-.footer-block {
     padding-top: 60px;
     padding-bottom: 60px;
 }
+
+
 
 .footer-logo {
     font-family: 'Raleway', sans-serif;
